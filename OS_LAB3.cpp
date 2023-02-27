@@ -12,7 +12,7 @@ void OpenMPVariant();
 
 const int N = 100000000;
 const double invertN = 1.0 / N;
-const int BLOCK = 308240; // íîìåð ñòóä. áèëåòà 030808
+const int BLOCK = 308240;
 volatile LONG iteration = -1;
 
 double* results;
